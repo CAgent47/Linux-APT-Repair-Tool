@@ -94,14 +94,14 @@ your System Status:
       Linux: Where coders feel at home.
       =========================================
       
-      Created By GodFather
+      Created By CAgent_47
 ```
 
 ---
 
 # 👤 Author
 
-  Created by: GodFather | 
+  Created by: CAgent_47 |
 
   -📜MTA Scripter • Linux Learner🐧 • Python Learner • SQL • Bash Scripter 🇺🇸🔥
 
