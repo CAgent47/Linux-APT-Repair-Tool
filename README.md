@@ -11,7 +11,7 @@ A Bash Script to automatically fix / repair and clean broken or incomplete APT p
 
 **Fixed Bugs**
 
-**Improved evecution speed and fixed**
+**Improved execution speed and fixed**
 
 **Moved Commands To Json file For Ease Of Development**
 
