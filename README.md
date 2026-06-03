@@ -3,7 +3,7 @@
 A Bash Script to automatically fix / repair and clean broken or incomplete APT package on Debian/Ubuntu Systems.
 
 ---
-![Update](update.jpg)
+![Update](Update.jpg)
 
 # New Update (V2.0):
 
