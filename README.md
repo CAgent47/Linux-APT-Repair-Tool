@@ -42,18 +42,21 @@ Devuan
 Sparky Linux
 antiX
 Porrot OS
+And All Debian Based
 ```
 ---
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 # 📜 Script Usage
+1. Download Script:
 
-🔧 1. Give permission: 
-```bash
-    chmod +x apt_error-fix.sh
-```
-▶️ 2. Run the script: 
-```bash
-    ./apt_error-fix.sh
+![Click_To_Fix](https://github.com/CAgent47/Linux-Apt-Fix/archive/refs/heads/main.zip)
+
+2. Execute Commands:
+```markdown
+    1. Extract Zip file
+    2. change your Directory to apt_fix folder
+    3. chmod +x fix.sh
+    4. bash fix.sh
 ```
 ---
 ![Repair](HWH-repair.png)
@@ -85,8 +88,6 @@ Porrot OS
 
 # 📷 Example Output
 
-your System Status:
-<neofetch info here>
 ```markdown
       Linux: Apt Process Completed (Errors Fixed & Packages Upgraded)
       
