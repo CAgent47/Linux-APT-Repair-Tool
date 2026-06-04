@@ -10,7 +10,7 @@ function Enter() {
     done
 }
 
-installation() {
+installation() { # Function For Install Packages In Script ( If Not Exists )
     for pkgs in "$@"; do
         if ! dpkg -s "$pkgs" >/dev/null 2>&1; then
             sudo apt install "$pkgs"
@@ -19,16 +19,18 @@ installation() {
 }
 
 randomMessages() {
+    echo -e "\e[46m=========================================\e[0m"
     quotes=(
-        "Linux: Freedom to choose!"
-        "Linux: Power at your fingertips!"
-        "Linux: Where coders feel at home."
-        "Linux: Stability meets felexibility."
-        "Linux: Open-source, Open Possibilities"
+        "GNU/Linux: Freedom to choose!"
+        "GNU/Linux: Power at your fingertips!"
+        "GNU/Linux: Where coders feel at home."
+        "GNU/Linux: Stability meets felexibility."
+        "GNU/Linux: Open-source, Open Possibilities"
     )
 
-    random_index=$((RANDOM % ${#quotes[@]}))
-    echo -e "\e[36m${quotes[$random_index]}\e[0m" 
+    random_index=$((RANDOM % ${#quotes[@]})) # Select Random Message And Save in Variable
+    echo -e "\e[36m${quotes[$random_index]}\e[0m"
+    echo -e "\e[46m=========================================\e[0m"
 }
 
 installation libnotify-bin jq
@@ -38,6 +40,7 @@ notify-send "Relax And Wait a Few Minutes For Your Apt To Be Fix"
 
 # ======================================================
 # ============ Reading & Executing Commands ============
+# While loop For Read Json Commands And Execute command
 
 jq -r '.commands[]' config.json | while read -r cmd; do
     echo ">> Running $cmd"
@@ -56,9 +59,7 @@ echo -e "\e[42mLinux:\e[0m  \e[31mApt Process Completed\e[0m \e[95m(Errors Fixed
 
 Enter
 
-echo -e "\e[46m=========================================\e[0m"
 randomMessages
-echo -e "\e[46m=========================================\e[0m"
 
 Enter
 
