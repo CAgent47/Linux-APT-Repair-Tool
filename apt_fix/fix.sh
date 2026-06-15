@@ -63,7 +63,7 @@ randomMessages
 
 Enter
 
-echo -e "\e[45mCreated By CAgent_47\e[0m"
+echo -e "Created By CAgent_47"
 
 
 # Scripted By CAgent_47
