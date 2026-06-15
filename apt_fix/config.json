@@ -10,10 +10,10 @@
         "sudo rm /var/cache/apt/archives/lock",
         "sudo rm /var/lib/dpkg/lock",
         "sudo apt autoremove -y",
-        "sudo apt autoclean -y",
+        "sudo apt clean",
         "sudo dpkg --configure -a",
         "sudo apt --fix-broken install -y",
         "sudo apt update",
-        "sudo apt full-upgrade -y"
+        "sudo apt upgrade -y"
     ]
 }
