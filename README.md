@@ -111,6 +111,12 @@ And All Debian Based
       
       Created By CAgent_47
 ```
+---
+
+[#Automation](https://github.com/topics/automation)
+[#Linux](https://github.com/topics/linux)
+[#Bash](https://github.com/topics/bash)
+[#CAgent_47](https://github.com/topics/CAgent47)
 
 ---
 
