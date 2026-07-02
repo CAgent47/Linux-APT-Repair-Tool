@@ -63,14 +63,15 @@ And All Debian Based
 # 📜 Script Usage
 1. Download Script:
 
-![Click_To_Fix](https://github.com/CAgent47/Linux-Apt-Fix/archive/refs/heads/main.zip)
+```bash
+git clone https://github.com/CAgent47/Linux-Apt-Fix.git
+```
 
 2. Execute Commands:
 ```markdown
-    1. Extract Zip file
-    2. change your Directory to apt_fix folder
-    3. chmod +x fix.sh
-    4. bash fix.sh
+    1. change your Directory to apt_fix folder
+    2. chmod +x fix.sh
+    3. bash fix.sh
 ```
 ---
 ![Repair](HWH-repair.png)
