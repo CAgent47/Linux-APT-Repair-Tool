@@ -68,10 +68,13 @@ git clone https://github.com/CAgent47/Linux-Apt-Fix.git
 ```
 
 2. Execute Commands:
-```markdown
-    1. change your Directory to apt_fix folder
-    2. chmod +x fix.sh
-    3. bash fix.sh
+```bash
+    #1. change your Directory to apt_fix folder
+
+    #2.
+       chmod +x fix.sh
+    #3.
+       ./fix.sh
 ```
 ---
 ![Repair](HWH-repair.png)
