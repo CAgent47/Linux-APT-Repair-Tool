@@ -1,4 +1,7 @@
-{
+import json
+import os
+
+jsonFileFeatures = {
     "info": {
         "author": "CAgent_47",
         "GitHub": "https://github.com/CAgent47",
@@ -17,3 +20,6 @@
         "sudo apt upgrade -y"
     ]
 }
+if not os.path.exists('config.json'):
+    with open('config.json', 'w') as configuration:
+        json.dump(jsonFileFeatures, configuration, indent=4)
